@@ -46,7 +46,7 @@ return Math.round( knot * 1.852);
 }
 
 var weatherImages = {
-"clear-day": "images/clear day.png" ,
+"clear-day": "images/Clear day.png" ,
 "clear-night": "images/clear night.png",
 "rain": "images/rain.png",
 "snow": "images/snow.png",

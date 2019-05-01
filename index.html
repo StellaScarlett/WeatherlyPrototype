@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Local Weather</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+
+
+</head>
+
+<body>
+
+	<div class="city">
+
+		<div class="container">
+			<img id="current-icon">
+			<div class="city-title ">
+
+				<div>
+					<ol id="current-temperature">--</ol>
+					<ol id="weather-summary"></ol>
+					<ol id="description"></ol>
+					<hr />
+					<ol id="current-humidity">--</ol>
+					<ol id="current-pressure">--</ol>
+					<ol id="current-uvIndex">--</ol>
+					<ol id="current-wind-bearing">--</ol>
+					<ol id="current-wind-speed">--</ol>  
+					<hr />
+				</div>
+				<div>
+					<button id="getWeather" onclick="getWeather()">Get Current Weather!</button>
+				</div>
+				
+
+				<div><a href="http://forecast.io" id="forio">Powered by Dark Sky</a></div>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

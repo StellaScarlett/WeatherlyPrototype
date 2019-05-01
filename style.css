@@ -1,0 +1,141 @@
+body {
+background-color: #E9F2FB;
+}
+
+.city {
+padding: 0px;
+}
+
+.container {
+margin: 0 auto;
+padding: 10px;
+width: 400px;
+height: 650px;
+background-size: cover;
+border-radius: 3px;
+position: relative;
+-webkit-box-shadow: 2px 3px 7px 0px rgba(50, 50, 50, 0.8);
+-moz-box-shadow: 2px 3px 7px 0px rgba(50, 50, 50, 0.8);
+box-shadow: 2px 3px 7px 0px rgba(50, 50, 50, 0.8);
+background: #C0E7F4;
+}
+
+.city-title {
+box-sizing: border-box;
+font-family: 'Calibri', sans-serif;
+text-align: center;
+margin: 0 auto;
+display: block;
+}
+
+.city-title {
+font-size: 2.5em;
+padding-top: 10px;
+height: 410px
+}
+
+#current-icon {
+height: 25%;
+align-content: center;
+border: none;
+border-radius: 40px;
+display: flex;
+margin: 0 auto;
+}
+	
+	#current-temperature {
+font-size: 40px;
+font-weight: bold;
+width: 165px;
+margin: 0 auto;
+}
+	
+	#weather-summary {
+font-family: 'Rasa', sans-serif;
+font-size: 20px;
+color: #FEF3F3;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+}
+
+hr {
+border: 0;
+height: 1px;
+background-image: linear-gradient(to right, rgba(20, 24, 33, 0), rgba(20, 24, 33, 0.75), rgba(20, 24, 33, 0));
+width: 60%;
+margin-top: 15px;
+margin-bottom: 0px;
+}
+
+ol {
+font-size: 18px;
+color: #FEF3F3;
+font-family: 'Rasa', sans-serif;
+letter-spacing: 0.2px;
+cursor: default;
+padding-left: 0px;
+}
+
+#getWeather {
+height: 60px;
+width: 190px;
+font-size: 17px;
+border-radius: 5px;
+border: none;
+outline: none;
+cursor: pointer;
+align-content: center;
+font-family: 'Calibri', sans-serif;
+font-weight: 600;
+background-color: #FEF3F3;
+opacity: 0.8;
+color: #353F58; 
+transition: 0.5s;
+margin: 0 auto;
+}
+
+#getWeather:hover {
+background-color: hsla(198, 80%, 60%, 0.6);
+color: #FEF3F3;
+border: 3px solid #FEF3F3;
+border-radius: 5px;
+}
+
+#getWeather:active {
+background-color: hsl(216, 100%, 90%);
+color: #FEF3F3;
+}
+
+
+a {
+width: 400px;
+font-size: 21px;
+text-align: center;
+color: #FEF3F3;
+font-family: 'Rasa', sans-serif;
+letter-spacing: 0.2px;
+cursor: default;
+}
+
+#forio{
+font-size: 10px;
+font-family: 'Rasa', serif;
+font-weight: bold;
+color: #323D54;
+float: right;
+margin: 5px 5px;
+padding-top: 10px 
+}
+	
+#forio:hover {
+font-size: 10px;
+font-family: 'Rasa', serif;
+font-weight: bold;
+color: #FEF3F3;
+float: right;
+margin: 8px 5px 2px 10px;
+text-decoration: none;
+cursor: alias;
+}
